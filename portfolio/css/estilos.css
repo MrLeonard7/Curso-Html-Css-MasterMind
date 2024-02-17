@@ -25,6 +25,9 @@ p{
 cite{
     font-weight: 300;
 }
+i{
+    font-size: 24px;
+}
 
 /*CSS Ids y Clases*/
 .hashtag{
@@ -32,6 +35,14 @@ cite{
 }
 .seccion{
     padding: 10px 100px 10px 100px;
+}
+#redessociales{
+    list-style: none;
+    margin-t5px 0 0 20px;
+}
+.icono{
+    float: left;
+    margin-right: 5px;
 }
 #inicio{
     background-image: url(../img/inicio.png);
