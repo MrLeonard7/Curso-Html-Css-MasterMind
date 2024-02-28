@@ -1,0 +1,52 @@
+<html>
+    <style>
+        *{
+            margin: 0%;
+            padding: 0px;
+            text-align: center;
+            body{
+                background-color: #222;
+            }
+        }
+        #container {
+            display: grid;
+            grid-template-columns: 188px 1fr;
+            grid-template-rows: 27px 1fr 18px;
+            gap: 5px;
+            align-items: center;
+            justify-content: center;
+            padding: 25px 25px;
+        }
+        .item{
+            background-color: #222;
+            color: #fff;
+            }
+        .item:hover{
+            background-color: gray;
+        }
+        #one{
+            grid-column: 1;
+            grid-row: 1/4;
+        }
+    </style>
+    <body>
+        <section id="container">
+            <div id="one" class="item">
+                <img src="./portfolio/img/about-me_205.png" alt="">
+            </div>
+            <div class="item">
+                <h2>Sobre Mi</h2>
+            </div>
+            <div class="item">
+                <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Distinctio asperiores quaerat reiciendis atque illum, repudiandae necessitatibus odit ex tenetur possimus voluptatibus suscipit accusantium natus, ad eligendi error deleniti nostrum nulla!
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Eius, dicta in. Ipsa fugiat inventore eaque exercitationem dolor architecto porro nam odit odio error hic sit, dolore officiis? Exercitationem, porro facilis.
+                </p>
+            </div>
+            <div class="item">
+                <p>Mas info</p>
+            </div>
+        </section>
+    </body>
+</html>
+
+

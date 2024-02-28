@@ -10,64 +10,194 @@
         <link rel="stylesheet" href="./css/estilos.css">
     </head>
     <body>
-        <!--Bloque de inicio-->
-        <div id="inicio" class="seccion">
-            <h2>David Becerra</h2>
-            <h3 class="hashtag">#CreadordeContenido</h3>
-            <h3 class="hashtag">#DiseñadorWeb</h3>
-            <ul id="redessociales">
-                <li class="icono"><a href="https://www.linkedin.com/in/david-becerra-p-555182168" target="_blank"><i class="fa-brands fa-linkedin"></i></a></li>
-                <li class="icono"><a href="https://www.youtube.com/channel/UC90BPoZMCfly7cWe38PUzMg"><i class="fa-brands fa-youtube"></i></a></li>
-                <li class="icono"><i class="fa-brands fa-x-twitter"></i></li>
-                <li class="icono"><i class="fa-brands fa-instagram"></i></li>
+        <!--Menu de navegacion-->
+        <nav>
+            <ul>
+                <li><a href="#sobre-mi">sobre mí</a></li>
+                <li><a href="#portfolio">portafolio</a></li>
+                <li class="logo"><img src="./img/logo.png" alt="logo de David"></li>
+                <li><a href="#experiencia">skills</a></li>
+                <li><a href="#contactar">contactar</a></li>
             </ul>
-        </div>
-        <!--FIN Bloque de inicio-->
+        </nav>
+        <!--FIN Menu de navegacion-->
 
-        <!--Bloque sobre mi-->
-        <div id="sobre-mi" class="seccion">
-            <h2>Sobre mí</h2>
-            <img src="./img/about-me_205.png" alt="Foto David Becerra" height="250">
-            <p>Hola, soy <strong>David Becerra</strong> una persona Apasionado de <span>la Tecnología y la Programación</span>,
-            tengo 23 años y soy un apasionado de la tecnología y la programación ya que me encanta la sensación de poder crear
-            cosas, plasmar ideas e incluso construir mundos enteros gracias al código.</p>
-            <p>Me concidero una persona responsable, honesta y orientada a los resultados, siempre prestando atención a los 
-            detalles. Mi lema es: <cite>"Lo maravilloso de aprender algo, es que nadie puede arrebatárnoslo"</cite>.</p>
-        </div>
-        <!--FIN Bloque sobre mi-->
+        <article>
+            <!--Bloque de inicio-->
+            <section id="inicio">
+                <h2 >David Becerra</h2>
+                <h3 class="hashtag">#CreadordeContenido</h3>
+                <h3 class="hashtag">#DiseñadorWeb</h3>
+                <ul id="redessociales">
+                    <li><a href="https://www.linkedin.com/in/david-becerra-p-555182168" target="_blank"><i class="fa-brands fa-linkedin"></i></a></li>
+                    <li><a href="https://www.youtube.com/channel/UC90BPoZMCfly7cWe38PUzMg" target="_blank"><i class="fa-brands fa-youtube"></i></a></li>
+                    <li><a href="https://twitter.com/Dv_Leonard" target="_blank"><i class="fa-brands fa-x-twitter"></i></a></li>
+                    <li><a href="https://github.com/MrLeonard7" target="_blank"><i class="fa-brands fa-github"></i></a></li>
+                </ul>
+            </section>
+            <!--FIN Bloque de inicio-->
 
-        <!--Bloque Portafolio-->
-        <div id="portfolio" class="seccion">
-            <h2>Portfolio</h2>
-            <h3>Una mirada mas allá del texto</h3>
-            <table>
-                <thead>
-                    <tr>
-                        <th colspan="3">Ejemplos de Portfolio</th>
-                    </tr>
-                </thead>
-                <tbody>
-                    <tr>
-                        <td>Webs</td>
-                        <td>Aplicaciones</td>
-                        <td>Juegos</td>
-                    </tr>
-                    <tr>
-                        <td>Personalizadas</td>
-                        <td>Android</td>
-                        <td>Pc</td>
-                    </tr>
-                </tbody>
-            </table>
-        </div>
-        <!--FIN Bloque Portafolio-->
+            <!--Bloque sobre mi-->
+            <section id="sobremi">
+                <div id="imgsobremi">
+                    <img src="./img/about-me_205.png" alt="Foto David Becerra" height="250">
+                </div>
+                <div id="bodysobremi">
+                    <h2>Sobre mí</h2>
+                    <p>Hola, soy <strong>David Becerra</strong> una persona Apasionado de <span>la Tecnología y la Programación</span>,
+                    tengo 23 años y soy un apasionado de la tecnología y la programación ya que me encanta la sensación de poder crear
+                    cosas, plasmar ideas e incluso construir mundos enteros gracias al código.</p>
+                    <p>Me concidero una persona responsable, honesta y orientada a los resultados, siempre prestando atención a los 
+                    detalles. Mi lema es: <cite>"Lo maravilloso de aprender algo, es que nadie puede arrebatárnoslo"</cite>.</p>
+                    <div class="masinfo"><button type="button">MAS INFO</button></div>
+                </div>
+            </section>
+            <!--FIN Bloque sobre mi-->
 
-        <!--Bloque Experiencia-->
-        <div id="experiencia" class="seccion">
-            <h2>Experiencia y Skill</h2>
-            <h3>Lorem ipsum dolor sit, amet consectetur adipisicing elit.</h3>
-            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ratione, iure deserunt ipsum delectus, adipisci possimus eos saepe consequuntur eveniet qui dolor esse nobis. Nostrum, neque. Dolores vitae unde exercitationem quam.</p>
-        </div>
-        <!--FIN Bloque Experiencia-->
+            <!--Bloque Portafolio-->
+            <section id="portfolio">
+                <h2>Portfolio</h2>
+                <h3>Una mirada mas allá del texto</h3>
+                <div class="filaportfolio">
+                    <div class="card">
+                        <img src="./img/imagen_portfolio.png" alt="Portfolio 3">
+                        <h3>musica</h3>
+                        <h4>concierto benicassim</h4>
+                        <div class="sep"></div>
+                        <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit.</p>
+                        <div class="masinfo"><button type="button">MAS INFO</button></div>
+                    </div>
+                    <div class="card">
+                        <img src="./img/imagen_portfolio.png" alt="Portfolio 3">
+                        <h3>musica</h3>
+                        <h4>concierto benicassim</h4>
+                        <div class="sep"></div>
+                        <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit.</p>
+                        <div class="masinfo"><button type="button">MAS INFO</button></div>
+                    </div>
+                    <div class="card">
+                        <img src="./img/imagen_portfolio.png" alt="Portfolio 3">
+                        <h3>musica</h3>
+                        <h4>concierto benicassim</h4>
+                        <div class="sep"></div>
+                        <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit.</p>
+                        <div class="masinfo"><button type="button">MAS INFO</button></div>
+                    </div>
+                    <div class="card">
+                        <img src="./img/imagen_portfolio.png" alt="Portfolio 4">
+                        <h3>musica</h3>
+                        <h4>concierto benicassim</h4>
+                        <div class="sep"></div>
+                        <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit.</p>
+                        <div class="masinfo"><button type="button">MAS INFO</button></div>
+                    </div>
+                </div>
+            </section>
+            <!--FIN Bloque Portafolio-->
+
+            <!--Bloque Experiencia-->
+            <section id="experiencia">
+                <h2>Experiencia y Skill</h2>
+                <h3>Lorem ipsum dolor sit, amet consectetur adipisicing elit.</h3>
+                <div class="gridexp">
+                    <div class="cardexp">
+                        <h2>Diseño web</h2>
+                        <h3 class="textoizquierda">2018-2020</h3>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+                        <ul>
+                            <li><img src="./img/tecno_au.png" alt="" height="30px"></li>
+                            <li><img src="./img/tecno_cu.png" alt="" height="30px"></li>
+                            <li><img src="./img/tecno_html.png" alt="" height="30px"></li>
+                        </ul>
+                    </div>
+                    <div class="cardexp">
+                        <h2>Diseño web</h2>
+                        <h3 class="textoizquierda">2018-2020</h3>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+                        <ul>
+                            <li><img src="./img/tecno_au.png" alt="" height="30px"></li>
+                            <li><img src="./img/tecno_cu.png" alt="" height="30px"></li>
+                            <li><img src="./img/tecno_html.png" alt="" height="30px"></li>
+                        </ul>
+                    </div>
+                    <div class="cardexp">
+                        <h2>Diseño web</h2>
+                        <h3 class="textoizquierda">2018-2020</h3>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+                        <ul>
+                            <li><img src="./img/tecno_au.png" alt="" height="30px"></li>
+                            <li><img src="./img/tecno_cu.png" alt="" height="30px"></li>
+                            <li><img src="./img/tecno_html.png" alt="" height="30px"></li>
+                        </ul>
+                    </div>
+                    <div class="cardexp">
+                        <h2>Diseño web</h2>
+                        <h3 class="textoizquierda">2018-2020</h3>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+                        <ul>
+                            <li><img src="./img/tecno_au.png" alt="" height="30px"></li>
+                            <li><img src="./img/tecno_cu.png" alt="" height="30px"></li>
+                            <li><img src="./img/tecno_html.png" alt="" height="30px"></li>
+                        </ul>
+                    </div>
+                    <div class="cardexp">
+                        <h2>Diseño web</h2>
+                        <h3 class="textoizquierda">2018-2020</h3>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+                        <ul>
+                            <li><img src="./img/tecno_au.png" alt="" height="30px"></li>
+                            <li><img src="./img/tecno_cu.png" alt="" height="30px"></li>
+                            <li><img src="./img/tecno_html.png" alt="" height="30px"></li>
+                        </ul>
+                    </div>
+                    <div class="cardexp">
+                        <h2>Diseño web</h2>
+                        <h3 class="textoizquierda">2018-2020</h3>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+                        <ul>
+                            <li><img src="./img/tecno_au.png" alt="" height="30px"></li>
+                            <li><img src="./img/tecno_cu.png" alt="" height="30px"></li>
+                            <li><img src="./img/tecno_html.png" alt="" height="30px"></li>
+                        </ul>
+                    </div>
+                </div>            </section>
+            <!--FIN Bloque Experiencia-->
+
+            <!--Bloque Contactar-->
+            <section id="contactar">
+                <h2>Contacto</h2>
+                <h3>Envíame tus dudas</h3>
+                <form action="#">
+                    <div class="itemform">
+                        <label for="nombre">Nombre</label>
+                        <input type="text" name="nombre" id="nombre" minlength="2" maxlength="64" size="32" required>
+                    </div>
+                    <div class="itemform">
+                        <label for="empresa">Empresa</label>
+                        <input type="text" name="empresa" id="empresa" minlength="2" maxlength="128" size="32">
+                    </div>
+                    <div class="itemform">
+                        <label for="email">Email</label>
+                        <input type="email" name="email" id="email" minlength="10" maxlength="128" size="32" required>
+                    </div>
+                    <div class="itemform">
+                        <label for="mensaje">Mensaje</label>
+                        <textarea name="mensaje" id="mensaje" cols="32" rows="5" required></textarea>
+                    </div>
+                    <div class="itemform">
+                        <input type="submit" value="CONTACTAR" name="boton">
+                    </div>
+                </form>
+            </section>
+        </article>
+
+        <!--Footer-->
+        <footer>
+            <ul>
+                <li class="logo"><a href="#inicio"><img src="./img/logo.png" alt="logo"></a></li>
+                <li>Lorem ipsum dolor sit amet consectetur adipisicing elit</li>
+            </ul>
+        </footer>
+        <!--FIN Footer-->
     </body>
 </html>
